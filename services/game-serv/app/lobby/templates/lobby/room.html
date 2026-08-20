@@ -1,0 +1,76 @@
+{% load static %}
+{% load i18n %}
+{% load chat %}
+<input type="hidden" name="pageKey" value="roomLobby">
+<input type="hidden" name="roomId" value="{{game.gameId}}">
+{% block stylesheets %}
+<link rel="stylesheet" href="{% static 'lobby/room.css' %}">
+{% endblock %}
+<div class="d-flex flex-column justify-content-between mt-2">
+    {% if game.gameType == False %}
+        <h2 class="p-3 mb-3" style="color: var(--secondary-color);">{% translate "New Pong Lobby" %}</h2>
+    {% else %}
+        <h2 class="p-3 mb-3" style="color: var(--secondary-color);">{% translate "New Connect 4 Lobby" %}</h2>
+    {% endif %}
+
+<div class="main-content d-flex section mt-0">
+<div id="user" class="section rounded-4">
+    <div class="d-flex flex-row justify-content-between">
+        <h3 style="color: var(--accent-color);" class="section-title rounded-2 px-2 py-1">{% translate "Users list :" %}
+        </h3>
+        <div id="userCount">0/{{ game.maxPlayers }}</div>
+    </div>
+    <ul id="playersList" style="padding: 0; list-style-type: none" class="mt-3">
+    </ul>
+</div>
+<div id="properties" class="section rounded-4">
+    <h3 style="color: var(--accent-color); width: max-content;" class="section-title rounded-2 px-2 py-1">{% translate "Properties :" %}
+    </h3>
+    <ul style="padding: 0; list-style-type: none" class="mt-3">
+    {% if game.gameType == False %}
+        <li class="my-2 rounded-2 m-1">
+            <p>2D/3D:</p>
+            <label class="switch">
+                <input type="checkbox" name="render" id="render" onchange="lobby_handleRender()">
+                <span id="render-switch" class="slider round"></span>
+            </label>
+        </li>
+    {% endif %}
+        {% if admin %}
+        {% if game.gameType == False %}
+        <li class="my-2 rounded-2 m-1">
+            <p>{% translate "2 Players/4 Players:" %}</p>
+            <label class="switch">
+                <input type="checkbox" name="playercount" id="playercount" onchange="handlePlayerCount()" {% if game.maxPlayers == 4 %}checked{% endif %}>
+                <span class="slider round"></span>
+            </label>
+        </li>
+        {% endif %}
+        <li class="my-2 rounded-2 m-1">
+            <p>{% translate "Private:" %}</p>
+            <label class="switch">
+                <input type="checkbox" name="private" id="private" onchange="handleVisibility()" {% if game.private %}checked{% endif %}>
+                <span class="slider round"></span>
+            </label>
+
+        </li>
+        {% endif %}
+    </ul>
+</div>
+
+</div>
+<div id="buttons" class="d-flex section rounded-4">
+    <button id="copy" onclick="copy_text('copy')"><i class="fa-regular fa-copy"></i></button>
+    {% if admin == True %}
+        <button id="launchButton" onclick="lobby_launchGame()" disabled>{% translate "Launch" %}</button>
+    {% endif %}
+</div>
+
+{% chat game.gameId %}
+
+{% block javascripts %}
+<script src="{% static 'lobby/room.js' %}"></script>
+{% endblock %}
+
+</div>
+</div>

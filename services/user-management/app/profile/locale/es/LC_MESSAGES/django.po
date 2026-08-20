@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-21 11:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: app/profile/settings.py:116
+msgid "English"
+msgstr "Inglés"
+
+#: app/profile/settings.py:117
+msgid "Spanish"
+msgstr "Español"
+
+#: app/profile/settings.py:118
+msgid "French"
+msgstr "Francés"
+
+#: app/profile/settings.py:119
+msgid "Dutch"
+msgstr "Holandés"
+
+#: app/profile/templates/friendButton.html:8
+msgid "add as friend"
+msgstr "agregar como amigo"
+
+#: app/profile/templates/friendButton.html:11
+msgid "remove as friend"
+msgstr "eliminar como amigo"
+
+#: app/profile/templates/profil.html:31
+msgid "logout"
+msgstr "cerrar sesión"
+
+#: app/profile/templates/profil.html:46
+msgid "Friends"
+msgstr "Amigos"
+
+#: app/profile/templates/profil.html:50
+msgid "no friends 😢"
+msgstr "sin amigos 😢"
+
+#: app/profile/templates/profil.html:62
+#: app/profile/templates/tournament.html:18
+msgid "Game History"
+msgstr "Historial de juegos"
+
+#: app/profile/templates/profil.html:66
+msgid "no game played yet!"
+msgstr "¡aún no se ha jugado ningún juego!"
+
+#: app/profile/templates/profil.html:74
+msgid "Connect4"
+msgstr "Conecta4"
+
+#: app/profile/templates/profil.html:77
+msgid "Pong"
+msgstr "Pong"
+
+#: app/profile/templates/profil.html:83
+msgid "draw"
+msgstr "empate"
+
+#: app/profile/templates/profil.html:87 app/profile/templates/profil.html:93
+msgid "won"
+msgstr "ganó"
+
+#: app/profile/templates/profil.html:89 app/profile/templates/profil.html:95
+msgid "lost"
+msgstr "perdido"
+
+#: app/profile/templates/profil.html:126
+msgid "Against:"
+msgstr "Contra:"
+
+#: app/profile/templates/profil.html:144
+msgid "Tournament History"
+msgstr "Historial de torneos"
+
+#: app/profile/templates/profil.html:147
+msgid "no tournament played yet!"
+msgstr "¡aún no se ha jugado ningún torneo!"
+
+#: app/profile/templates/profil.html:156
+msgid "Tournament"
+msgstr "Torneo"
+
+#: app/profile/templates/settings/cli.html:4
+msgid "Generate token"
+msgstr "Generar token"
+
+#: app/profile/templates/settings/index.html:7
+msgid "User Settings"
+msgstr "Configuraciones de usuario"
+
+#: app/profile/templates/settings/index.html:10
+msgid "Profile :"
+msgstr "Perfil :"
+
+#: app/profile/templates/settings/language_selector.html:4
+msgid "Select your language:"
+msgstr "Selecciona tu idioma:"
+
+#: app/profile/templates/settings/otp.html:6
+msgid "Disable Double Authentication"
+msgstr "Desactivar la autenticación doble"
+
+#: app/profile/templates/settings/otp.html:10
+msgid "Add Double Authentication"
+msgstr "Agregar autenticación doble"
+
+#: app/profile/templates/settings/security.html:5
+msgid "Security"
+msgstr "Seguridad"
+
+#: app/profile/templates/settings/security.html:11
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: app/profile/templates/settings/security.html:17
+msgid "Delete this account"
+msgstr "Eliminar esta cuenta"
+
+#: app/profile/templates/settings/theme_picker.html:9
+msgid "Theme Picker:"
+msgstr "Selector de tema :"
+
+#: app/profile/templates/settings/theme_picker.html:10
+msgid "Theme Picker"
+msgstr "Selector de tema"
+
+#: app/profile/templates/settings/theme_picker.html:11
+msgid "Select a default theme:"
+msgstr "Selecciona un tema predeterminado :"
+
+#: app/profile/templates/settings/theme_picker.html:227
+msgid "Or choose three colors for your theme:"
+msgstr "O elige tres colores para tu tema :"
+
+#: app/profile/templates/settings/theme_picker.html:245
+msgid "Test the theme"
+msgstr "Probar el tema"
+
+#: app/profile/templates/settings/theme_picker.html:263
+msgid "Please choose three different colors 😉"
+msgstr "Por favor elige tres colores diferentes 😉"
+
+#: app/profile/templates/settings/username.html:9
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: app/profile/templates/tournament.html:11
+msgid "Tournament Result"
+msgstr "Resultado de Torneo"
+
+#: app/profile/templates/tournament.html:13
+msgid "Tree"
+msgstr "Árbol"

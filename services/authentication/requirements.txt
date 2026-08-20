@@ -1,0 +1,10 @@
+Django==5.1
+django-environ
+redis
+psycopg[binary]
+requests
+PyJWT
+pyotp
+qrcode
+datetime
+Pillow

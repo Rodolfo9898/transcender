@@ -1,0 +1,315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-22 23:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/ft_auth/settings.py:96
+msgid "English"
+msgstr "Anglais"
+
+#: app/ft_auth/settings.py:97
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: app/ft_auth/settings.py:98
+msgid "French"
+msgstr "Français"
+
+#: app/ft_auth/settings.py:99
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: app/ft_auth/templates/delete.html:7
+msgid "Delete this account"
+msgstr "Supprimer ce compte"
+
+#: app/ft_auth/templates/delete.html:11 app/ft_auth/templates/link.html:12
+#: app/ft_auth/templates/login.html:20 app/ft_auth/templates/password.html:8
+#: app/ft_auth/templates/register.html:41
+msgid "Password"
+msgstr "Mot de passe"
+
+#: app/ft_auth/templates/delete.html:14 app/ft_auth/templates/link.html:15
+#, fuzzy
+#| msgid "Enter old password"
+msgid "Enter your password"
+msgstr "Entrez l'ancien mot de passe"
+
+#: app/ft_auth/templates/delete.html:19 app/ft_auth/templates/link.html:20
+#: app/ft_auth/templates/otp.html:12 app/ft_auth/templates/password.html:26
+#, fuzzy
+#| msgid "Doublefactor Authentication"
+msgid "Double Authentication Code"
+msgstr "Authentification à deux facteurs"
+
+#: app/ft_auth/templates/delete.html:35
+msgid "Delete"
+msgstr "Supprimer"
+
+#: app/ft_auth/templates/delete.html:40 app/ft_auth/templates/link.html:41
+#: app/ft_auth/templates/otp.html:49 app/ft_auth/templates/password.html:47
+msgid "Cancel"
+msgstr "Annuler"
+
+#: app/ft_auth/templates/deleted.html:8
+msgid "Account deleted!"
+msgstr "Compte supprimé !"
+
+#: app/ft_auth/templates/deleted.html:10
+msgid "OK"
+msgstr "D'accord"
+
+#: app/ft_auth/templates/link.html:7
+msgid "Link this account with 42"
+msgstr "Lier ce compte avec 42"
+
+#: app/ft_auth/templates/link.html:8
+#, fuzzy
+#| msgid "Account deleted!"
+msgid "Account: "
+msgstr "Compte supprimé !"
+
+#: app/ft_auth/templates/link.html:36
+msgid "Link"
+msgstr "Lier"
+
+#: app/ft_auth/templates/linked.html:8
+#, fuzzy
+#| msgid "Account deleted!"
+msgid "Account linked!"
+msgstr "Compte supprimé !"
+
+#: app/ft_auth/templates/linked.html:10
+#: app/ft_auth/templates/password_updated.html:11
+msgid "Back"
+msgstr "Retour"
+
+#: app/ft_auth/templates/login.html:8 app/ft_auth/templates/login.html:34
+#: app/ft_auth/templates/register.html:61
+msgid "Login"
+msgstr "Connexion"
+
+#: app/ft_auth/templates/login.html:11 app/ft_auth/templates/register.html:9
+msgid "Login Name"
+msgstr "Nom d'utilisateur"
+
+#: app/ft_auth/templates/login.html:17 app/ft_auth/templates/register.html:15
+msgid "Enter login name"
+msgstr "Entrez le nom d'utilisateur"
+
+#: app/ft_auth/templates/login.html:23 app/ft_auth/templates/register.html:42
+msgid "Enter Password"
+msgstr "Entrez le mot de passe"
+
+#: app/ft_auth/templates/login.html:39
+msgid "No account yet ?"
+msgstr "Pas encore de compte ?"
+
+#: app/ft_auth/templates/login.html:39
+msgid "Create one"
+msgstr "Créez-en un"
+
+#: app/ft_auth/templates/login.html:41
+msgid "Or"
+msgstr "Ou"
+
+#: app/ft_auth/templates/login.html:47 app/ft_auth/templates/register.html:69
+#: app/ft_auth/templates/to_42.html:13
+msgid "login with 42"
+msgstr "se connecter avec 42"
+
+#: app/ft_auth/templates/logout.html:6
+msgid "Disconnection"
+msgstr "Déconnexion"
+
+#: app/ft_auth/templates/logout.html:13
+msgid "If nothing happens click here"
+msgstr "Si rien ne se passe, cliquez ici"
+
+#: app/ft_auth/templates/otp.html:7
+msgid "Doublefactor Authentication"
+msgstr "Authentification à deux facteurs"
+
+#: app/ft_auth/templates/otp.html:10
+msgid "Enter PIN from your app"
+msgstr "Entrez le code PIN de votre application"
+
+#: app/ft_auth/templates/otp.html:44
+msgid "Validate"
+msgstr "Valider"
+
+#: app/ft_auth/templates/otp.html:49
+msgid "It's an error?"
+msgstr "C'est une erreur ?"
+
+#: app/ft_auth/templates/password.html:12
+msgid "Old Password"
+msgstr "Ancien mot de passe"
+
+#: app/ft_auth/templates/password.html:15
+msgid "Enter old password"
+msgstr "Entrez l'ancien mot de passe"
+
+#: app/ft_auth/templates/password.html:19
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: app/ft_auth/templates/password.html:22
+msgid "Enter new password"
+msgstr "Entrez le nouveau mot de passe"
+
+#: app/ft_auth/templates/password.html:42
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: app/ft_auth/templates/password_updated.html:8
+msgid "Password updated!"
+msgstr "Mot de passe mis à jour !"
+
+#: app/ft_auth/templates/register.html:6 app/ft_auth/templates/register.html:54
+msgid "Register"
+msgstr "Inscription"
+
+#: app/ft_auth/templates/register.html:20
+msgid "First Name"
+msgstr "Prénom"
+
+#: app/ft_auth/templates/register.html:26
+msgid "Enter your first name"
+msgstr "Entrez votre prénom"
+
+#: app/ft_auth/templates/register.html:31
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: app/ft_auth/templates/register.html:37
+msgid "Enter your last name"
+msgstr "Entrez votre nom de famille"
+
+#: app/ft_auth/templates/register.html:61
+msgid "You already have an account?"
+msgstr "Vous avez déjà un compte ?"
+
+#: app/ft_auth/templates/register.html:63
+msgid "Or maybe"
+msgstr "Ou peut-être"
+
+#: app/ft_auth/utils/token.py:73 app/ft_auth/utils/user.py:171
+msgid "Unknow user"
+msgstr "Utilisateur inconnu"
+
+#: app/ft_auth/utils/token.py:79
+msgid "Token expired"
+msgstr "Le jeton a expiré"
+
+#: app/ft_auth/utils/token.py:81
+msgid "Invalid token"
+msgstr "Jeton invalide"
+
+#: app/ft_auth/utils/user.py:107
+msgid "One or more required fields are empty"
+msgstr "Un ou plusieurs champs obligatoires sont vides"
+
+#: app/ft_auth/utils/user.py:111
+msgid "Your login name isn't an option!"
+msgstr "Votre nom d'utilisateur n'est pas valide !"
+
+#: app/ft_auth/utils/user.py:113
+msgid "Login size must be between 8 and 19 characters."
+msgstr ""
+"La taille du nom d'utilisateur doit être comprise entre 8 et 19 caractères."
+
+#: app/ft_auth/utils/user.py:117
+msgid "Your password isn't an option!"
+msgstr "Votre mot de passe n'est pas valide !"
+
+#: app/ft_auth/utils/user.py:119 app/ft_auth/utils/user.py:199
+msgid "Password size must be between 8 and 32 characters."
+msgstr "La taille du mot de passe doit être comprise entre 8 et 32 caractères."
+
+#: app/ft_auth/utils/user.py:123 app/ft_auth/utils/user.py:126
+msgid "Your first name isn't an option!"
+msgstr "Votre prénom n'est pas valide !"
+
+#: app/ft_auth/utils/user.py:128
+msgid ""
+"Combination of fisrt name and last name must be between 4 and 32 characters."
+msgstr ""
+"La combinaison du prénom et du nom de famille doit être comprise entre 4 et "
+"32 caractères."
+
+#: app/ft_auth/utils/user.py:131
+msgid "Login must contains only alphabetic characters."
+msgstr ""
+"Le nom d'utilisateur doit contenir uniquement des caractères alphabétiques."
+
+#: app/ft_auth/utils/user.py:134
+msgid ""
+"First and last names must contain only alphabetic characters and spaces."
+msgstr ""
+"Les prénoms et noms de famille doivent contenir uniquement des caractères "
+"alphabétiques et des espaces."
+
+#: app/ft_auth/utils/user.py:137
+msgid "Login already exists."
+msgstr "Le nom d'utilisateur existe déjà."
+
+#: app/ft_auth/utils/user.py:143 app/ft_auth/utils/user.py:165
+msgid "You forgot to specify your login name."
+msgstr "Vous avez oublié de spécifier votre nom d'utilisateur."
+
+#: app/ft_auth/utils/user.py:148 app/ft_auth/utils/user.py:177
+msgid "You forgot to specify your password."
+msgstr "Vous avez oublié de spécifier votre mot de passe."
+
+#: app/ft_auth/utils/user.py:155
+msgid "Login and password do not match."
+msgstr "Le nom d'utilisateur et le mot de passe ne correspondent pas."
+
+#: app/ft_auth/utils/user.py:180
+msgid "You forgot to specify your old password."
+msgstr "Vous avez oublié de spécifier votre ancien mot de passe."
+
+#: app/ft_auth/utils/user.py:187
+#, fuzzy
+#| msgid "Old password does not match."
+msgid "Password does not match."
+msgstr "L'ancien mot de passe ne correspond pas."
+
+#: app/ft_auth/utils/user.py:190
+msgid "Old password does not match."
+msgstr "L'ancien mot de passe ne correspond pas."
+
+#: app/ft_auth/utils/user.py:195
+msgid "You forgot to specify your new password."
+msgstr "Vous avez oublié de spécifier votre nouveau mot de passe."
+
+#: app/ft_auth/views/delete.py:79 app/ft_auth/views/link.py:92
+#: app/ft_auth/views/password.py:79
+msgid "Invalid A2F code"
+msgstr "Code A2F invalide"
+
+#: app/ft_auth/views/oauth2.py:45
+msgid "User creation failed, try later."
+msgstr "La création de l'utilisateur a échoué, réessayez plus tard."
+
+#: app/ft_auth/views/oauth2.py:51
+msgid "User login failed, try later."
+msgstr "La connexion de l'utilisateur a échoué, réessayez plus tard."
+
+#: app/ft_auth/views/otp.py:60
+msgid "Invalid code"
+msgstr "Code invalide"

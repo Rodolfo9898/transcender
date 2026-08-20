@@ -1,0 +1,27 @@
+{% load i18n %}
+{% load static %}
+<div class="d-flex flex-column align-items-center justify-content-between">
+	<div class="typewriter">
+        <h2>{% translate "Security" %}</h2>
+    </div>
+	{% include "settings/cli.html" %}
+	{% include "settings/otp.html" %}
+	<!-- <div class="container"> -->
+		<button type="button" id="change_password" onclick="loadPageEvent(event, '/password/')" class="btn btn-danger">
+			{% translate "Change password" %}
+		</button>
+	<!-- </div> -->
+	<!-- <div class="container"> -->
+		<button type="button" id="delete_account" onclick="loadPageEvent(event, '/delete')" class="btn btn-danger">
+			<i class="fa-solid fa-triangle-exclamation"></i>
+			{% translate "Delete this account" %}
+		</button>
+	<!-- </div> -->
+</div>
+
+{% block javascripts %}
+    <script src="/static/authentication/cli.js"></script>
+    <script src="/static/authentication/otp.js"></script>
+    <script src="/static/authentication/pin.js"></script>
+{% endblock %}
+
